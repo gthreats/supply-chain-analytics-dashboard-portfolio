@@ -1,97 +1,114 @@
-Supply Chain Analytics Dashboard Portfolio
-Overview
+# Supply Chain Analytics Dashboard Portfolio
 
-This project demonstrates the development of operational analytics dashboards using Python, Pandas, Jupyter Notebook, and Tableau. Synthetic datasets were generated to simulate real-world supply chain environments across multiple industries.
+## Overview
 
-The dashboards analyze logistics performance, operational efficiency, and supply chain demand patterns.
+This repository showcases a portfolio of business analytics dashboards built with **Python**, **Pandas**, **Jupyter Notebook**, and **Tableau**. The project uses synthetic datasets designed to reflect realistic operational patterns across multiple industries.
 
-Industries included:
+The dashboards were developed to demonstrate how analytics can support decision-making in logistics, supply chain operations, and healthcare inventory management.
 
-Military logistics operations
+### Industries Included
+- Military logistics operations
+- Retail supply chain management
+- Healthcare supply chain analytics
 
-Retail supply chain management
+---
 
-Healthcare supply chain demand
+## Tools & Technologies
 
-These dashboards demonstrate how business analytics tools can support operational decision-making.
+- Python
+- Pandas
+- Jupyter Notebook
+- Tableau
 
-Tools Used
+---
 
-Python
-Pandas
-Jupyter Notebook
-Tableau
+## Project 1: Military Logistics Operations Dashboard
 
-Project 1: Military Logistics Operations
+This dashboard analyzes logistics activity across operational theaters and transportation modes.
 
-This dashboard analyzes military logistics performance across global operational theaters.
+### Key Analytics
+- Shipment transit time trends
+- Carrier mode utilization
+- Logistics hub shipment volume
+- Equipment readiness distribution
+- Units shipped by theater
 
-Key insights include:
+### Business Value
+This dashboard demonstrates how analytics can improve visibility into logistics throughput, readiness, and transportation performance.
 
-Shipment transit time trends
+![Military Logistics Dashboard](images/military_dashboard.png)
 
-Carrier mode utilization
+---
 
-Logistics hub throughput
+## Project 2: Retail Supply Chain Performance Dashboard
 
-Equipment readiness distribution
+This dashboard analyzes a retail distribution network using operational and financial performance metrics.
 
-Units shipped by theater
+### Key Analytics
+- Revenue trends over time
+- Backordered units by category
+- Warehouse utilization
+- Regional revenue distribution
+- Transportation cost per unit
 
-Project 2: Retail Supply Chain Performance
+### Business Value
+This dashboard highlights how analytics can identify backorder pressure, regional performance differences, and warehouse capacity trends.
 
-This dashboard analyzes operational performance in a retail distribution network.
+![Retail Supply Chain Dashboard](images/retail_dashboard.png)
 
-Key insights include:
+---
 
-Revenue trends across time
+## Project 3: Healthcare Supply Chain Analytics Dashboard
 
-Backordered units by product category
+This dashboard analyzes healthcare supply usage, supplier delivery performance, and inventory patterns across hospital locations in the United States.
 
-Warehouse utilization rates
+### Key Analytics
+- Hospital supply demand across the United States
+- Supplier delivery performance
+- Top medical supplies by utilization
+- Healthcare supply spend by category
+- Average inventory levels by hospital
 
-Regional revenue distribution
+### Business Value
+This dashboard demonstrates how analytics can support healthcare supply planning, supplier management, and inventory visibility.
 
-Transportation cost per unit
+![Healthcare Supply Chain Dashboard](images/healthcare_dashboard.png)
 
-Project 3: Healthcare Supply Chain Analytics
+---
 
-This dashboard analyzes supply demand patterns across hospital networks.
+## Data Generation
 
-Key insights include:
+All datasets in this repository were generated in Python using Pandas to simulate realistic operational conditions without exposing proprietary or sensitive business data.
 
-Hospital supply demand across the United States
+The synthetic data was structured to support:
+- executive KPI reporting
+- geographic analysis
+- category and supplier comparisons
+- operational performance measurement
 
-Supplier delivery performance
+---
 
-Medical supply utilization
+## Repository Structure
 
-Healthcare supply spend by category
-
-Average hospital inventory levels
-
-Data Generation
-
-All datasets were generated in Python using Pandas to simulate realistic operational supply chain environments.
-
-Data fields include:
-
-shipment metrics
-
-supplier performance
-
-logistics hubs
-
-healthcare supply usage
-
-warehouse utilization
-
-These synthetic datasets allow for demonstration of analytics capabilities without using proprietary data.
-
-Author
-
-Geoffrey P. Threats
-
-Business Analytics | Supply Chain | Data Analytics
-
-Tools: Python, Pandas, Tableau, Jupyter Notebook
+```text
+supply-chain-analytics-dashboard-portfolio/
+│
+├── data/
+│   ├── military_logistics_dataset.csv
+│   ├── retail_distribution_dataset.csv
+│   └── healthcare_supply_chain_dataset.csv
+│
+├── notebooks/
+│   ├── military_dataset_generation.ipynb
+│   ├── retail_dataset_generation.ipynb
+│   └── healthcare_dataset_generation.ipynb
+│
+├── dashboards/
+│   └── supply_chain_analytics_dashboards.twbx
+│
+├── images/
+│   ├── military_dashboard.png
+│   ├── retail_dashboard.png
+│   └── healthcare_dashboard.png
+│
+└── README.md
