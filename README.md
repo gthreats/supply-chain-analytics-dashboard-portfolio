@@ -1,15 +1,20 @@
 # Supply Chain Analytics Dashboard Portfolio
 
+![Healthcare Dashboard](images/healthcare_supply_chain_dashboard.png)
+
 ## Overview
 
-This repository showcases a portfolio of business analytics dashboards built with **Python**, **Pandas**, **Jupyter Notebook**, and **Tableau**. The project uses synthetic datasets designed to reflect realistic operational patterns across multiple industries.
+This repository showcases a portfolio of business analytics dashboards built using **Python, Pandas, Jupyter Notebook, and Tableau**.
 
-The dashboards were developed to demonstrate how analytics can support decision-making in logistics, supply chain operations, and healthcare inventory management.
+The project demonstrates how analytics and visualization can support operational decision-making across multiple supply chain environments.
 
-### Industries Included
+Three industries are analyzed:
+
 - Military logistics operations
-- Retail supply chain management
-- Healthcare supply chain analytics
+- Retail supply chain performance
+- Healthcare supply chain demand
+
+Synthetic datasets were generated in Python to simulate realistic operational environments without exposing proprietary or sensitive business data.
 
 ---
 
@@ -22,93 +27,67 @@ The dashboards were developed to demonstrate how analytics can support decision-
 
 ---
 
-## Project 1: Military Logistics Operations Dashboard
+# Dashboards
+
+## Military Logistics Operations Dashboard
 
 This dashboard analyzes logistics activity across operational theaters and transportation modes.
 
 ### Key Analytics
+
 - Shipment transit time trends
 - Carrier mode utilization
 - Logistics hub shipment volume
 - Equipment readiness distribution
-- Units shipped by theater
+- Units shipped by operational theater
 
-### Business Value
-This dashboard demonstrates how analytics can improve visibility into logistics throughput, readiness, and transportation performance.
-
-![Military Logistics Dashboard](images/military_dashboard.png)
+![Military Dashboard](images/military_logistics_dashboard.png)
 
 ---
 
-## Project 2: Retail Supply Chain Performance Dashboard
+## Retail Supply Chain Performance Dashboard
 
-This dashboard analyzes a retail distribution network using operational and financial performance metrics.
+This dashboard analyzes operational performance in a retail distribution network.
 
 ### Key Analytics
-- Revenue trends over time
-- Backordered units by category
-- Warehouse utilization
+
+- Revenue trends across time
+- Backorders by product category
+- Warehouse utilization rates
 - Regional revenue distribution
 - Transportation cost per unit
 
-### Business Value
-This dashboard highlights how analytics can identify backorder pressure, regional performance differences, and warehouse capacity trends.
-
-![Retail Supply Chain Dashboard](images/retail_dashboard.png)
+![Retail Dashboard](images/retail_supply_chain_dashboard.png)
 
 ---
 
-## Project 3: Healthcare Supply Chain Analytics Dashboard
+## Healthcare Supply Chain Intelligence Dashboard
 
-This dashboard analyzes healthcare supply usage, supplier delivery performance, and inventory patterns across hospital locations in the United States.
+This dashboard analyzes healthcare supply demand and supplier performance across hospital locations in the United States.
 
 ### Key Analytics
+
 - Hospital supply demand across the United States
 - Supplier delivery performance
 - Top medical supplies by utilization
 - Healthcare supply spend by category
 - Average inventory levels by hospital
 
-### Business Value
-This dashboard demonstrates how analytics can support healthcare supply planning, supplier management, and inventory visibility.
-
-![Healthcare Supply Chain Dashboard](images/healthcare_dashboard.png)
+![Healthcare Dashboard](images/healthcare_supply_chain_dashboard.png)
 
 ---
 
-## Data Generation
+## Data Generation Notebook
 
-All datasets in this repository were generated in Python using Pandas to simulate realistic operational conditions without exposing proprietary or sensitive business data.
+The datasets used in this project were generated using Python and Pandas.
 
-The synthetic data was structured to support:
-- executive KPI reporting
-- geographic analysis
-- category and supplier comparisons
-- operational performance measurement
+The notebook demonstrates the complete data engineering workflow used to create the datasets used by the dashboards.
+
+View the notebook here:
+
+- [Jupyter Notebook](notebooks/supply_chain_dataset_generation.ipynb)
+- [HTML Report Version](notebooks/supply_chain_dataset_generation_report.html)
 
 ---
 
 ## Repository Structure
-
-```text
-supply-chain-analytics-dashboard-portfolio/
-│
-├── data/
-│   ├── military_logistics_dataset.csv
-│   ├── retail_distribution_dataset.csv
-│   └── healthcare_supply_chain_dataset.csv
-│
-├── notebooks/
-│   ├── military_dataset_generation.ipynb
-│   ├── retail_dataset_generation.ipynb
-│   └── healthcare_dataset_generation.ipynb
-│
-├── dashboards/
-│   └── supply_chain_analytics_dashboards.twbx
-│
-├── images/
-│   ├── military_dashboard.png
-│   ├── retail_dashboard.png
-│   └── healthcare_dashboard.png
-│
-└── README.md
