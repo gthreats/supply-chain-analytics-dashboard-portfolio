@@ -81,7 +81,7 @@ The datasets used in this project were generated using Python and Pandas.
 The notebook demonstrates the complete data engineering workflow used to create the datasets used by the dashboards.
 
 - [Jupyter Notebook](notebooks/supply_chain_dataset_generation.ipynb)
-- [HTML Report Version](notebooks/supply_chain_dataset_generation_report.html)
+
 
 ---
 
