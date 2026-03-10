@@ -1,5 +1,6 @@
 # Supply Chain Analytics Dashboard Portfolio
 
+![Healthcare Supply Chain Dashboard](images/healthcare_supply_chain_dashboard.png)
 
 ## Overview
 
@@ -26,14 +27,13 @@ Synthetic datasets were generated in Python to simulate realistic operational en
 
 ---
 
-# Dashboards
+## Dashboards
 
-## Military Logistics Operations Dashboard
+### Military Logistics Operations Dashboard
 
 This dashboard analyzes logistics activity across operational theaters and transportation modes.
 
-### Key Analytics
-
+**Key Analytics**
 - Shipment transit time trends
 - Carrier mode utilization
 - Logistics hub shipment volume
@@ -44,12 +44,11 @@ This dashboard analyzes logistics activity across operational theaters and trans
 
 ---
 
-## Retail Supply Chain Performance Dashboard
+### Retail Supply Chain Performance Dashboard
 
 This dashboard analyzes operational performance in a retail distribution network.
 
-### Key Analytics
-
+**Key Analytics**
 - Revenue trends across time
 - Backorders by product category
 - Warehouse utilization rates
@@ -60,12 +59,11 @@ This dashboard analyzes operational performance in a retail distribution network
 
 ---
 
-## Healthcare Supply Chain Intelligence Dashboard
+### Healthcare Supply Chain Intelligence Dashboard
 
 This dashboard analyzes healthcare supply demand and supplier performance across hospital locations in the United States.
 
-### Key Analytics
-
+**Key Analytics**
 - Hospital supply demand across the United States
 - Supplier delivery performance
 - Top medical supplies by utilization
@@ -82,15 +80,26 @@ The datasets used in this project were generated using Python and Pandas.
 
 The notebook demonstrates the complete data engineering workflow used to create the datasets used by the dashboards.
 
-View the notebook here:
-
 - [Jupyter Notebook](notebooks/supply_chain_dataset_generation.ipynb)
 - [HTML Report Version](notebooks/supply_chain_dataset_generation_report.html)
 
 ---
+
 ## Tableau Workbook
 
 Download the full Tableau workbook here:
 
 [Supply Chain Analytics Dashboards](dashboards/supply_chain_analytics_dashboards.twbx)
+
+---
+
 ## Repository Structure
+
+```text
+supply-chain-analytics-dashboard-portfolio/
+│
+├── data/
+├── dashboards/
+├── images/
+├── notebooks/
+└── README.md
