@@ -1,6 +1,5 @@
 # Supply Chain Analytics Dashboard Portfolio
 
-![Healthcare Dashboard](images/healthcare_supply_chain_dashboard.png)
 
 ## Overview
 
@@ -41,7 +40,7 @@ This dashboard analyzes logistics activity across operational theaters and trans
 - Equipment readiness distribution
 - Units shipped by operational theater
 
-![Military Dashboard](images/military_logistics_dashboard.png)
+![Military Logistics Dashboard](images/military_logistics_dashboard.png)
 
 ---
 
@@ -57,7 +56,7 @@ This dashboard analyzes operational performance in a retail distribution network
 - Regional revenue distribution
 - Transportation cost per unit
 
-![Retail Dashboard](images/retail_supply_chain_dashboard.png)
+![Retail Supply Chain Dashboard](images/retail_supply_chain_dashboard.png)
 
 ---
 
@@ -73,7 +72,7 @@ This dashboard analyzes healthcare supply demand and supplier performance across
 - Healthcare supply spend by category
 - Average inventory levels by hospital
 
-![Healthcare Dashboard](images/healthcare_supply_chain_dashboard.png)
+![Healthcare Supply Chain Dashboard](images/healthcare_supply_chain_dashboard.png)
 
 ---
 
@@ -89,5 +88,9 @@ View the notebook here:
 - [HTML Report Version](notebooks/supply_chain_dataset_generation_report.html)
 
 ---
+## Tableau Workbook
 
+Download the full Tableau workbook here:
+
+[Supply Chain Analytics Dashboards](dashboards/supply_chain_analytics_dashboards.twbx)
 ## Repository Structure
